@@ -105,6 +105,7 @@ module.exports = {
       // matches node-land files that aren't shipped to consumers (allows using Node 6+ features)
       files: [
         'broccoli/**/*.js',
+        'tests/node/**/*.js',
         'ember-cli-build.js',
         'rollup.config.js',
         'd8-runner.js',
